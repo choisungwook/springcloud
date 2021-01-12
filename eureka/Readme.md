@@ -1,4 +1,5 @@
 # Main함수 설정
+* @EnableEurekaServer추가
 ```java
 @SpringBootApplication
 @EnableEurekaServer
@@ -12,6 +13,7 @@ public class Application {
 ```
 
 # application.yaml 설정
+* eureka 설정
 ```yaml
 server:
   port: 8761
